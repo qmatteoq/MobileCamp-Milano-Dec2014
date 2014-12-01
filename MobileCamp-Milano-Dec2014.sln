@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.Windows", "MV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.WindowsPhone", "MVVMLightDemo\MVVMLightDemo.WindowsPhone\MVVMLightDemo.WindowsPhone.csproj", "{6C61DC1F-1BA6-46A4-940F-6D92EDD19821}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMLightDesignData", "MVVMLightDesignData", "{A46AF472-B85E-4CAD-8750-3F7037818F73}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMLight-DesignData", "MVVMLight-DesignData", "{A46AF472-B85E-4CAD-8750-3F7037818F73}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMLightDesignData.Shared", "MVVMLightDesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.shproj", "{49DB8F43-0EDE-43BB-BFE6-80021281449F}"
 EndProject
