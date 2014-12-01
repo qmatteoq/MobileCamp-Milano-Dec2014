@@ -5,19 +5,19 @@ VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMLight-BasicDemo", "MVVMLight-BasicDemo", "{BCC73D09-5962-435C-8A58-9AA7B578CFB3}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMLightDemo.Shared", "MVVMLightDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.shproj", "{EF0728E4-8840-47F9-9CEF-6C28642FF82C}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMLightDemo.Shared", "MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.shproj", "{EF0728E4-8840-47F9-9CEF-6C28642FF82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.Windows", "MVVMLightDemo\MVVMLightDemo.Windows\MVVMLightDemo.Windows.csproj", "{E4797013-4892-4760-BF85-0131D9B92440}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.Windows", "MVVMLight-BasicDemo\MVVMLightDemo.Windows\MVVMLightDemo.Windows.csproj", "{E4797013-4892-4760-BF85-0131D9B92440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.WindowsPhone", "MVVMLightDemo\MVVMLightDemo.WindowsPhone\MVVMLightDemo.WindowsPhone.csproj", "{6C61DC1F-1BA6-46A4-940F-6D92EDD19821}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDemo.WindowsPhone", "MVVMLight-BasicDemo\MVVMLightDemo.WindowsPhone\MVVMLightDemo.WindowsPhone.csproj", "{6C61DC1F-1BA6-46A4-940F-6D92EDD19821}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMLight-DesignData", "MVVMLight-DesignData", "{A46AF472-B85E-4CAD-8750-3F7037818F73}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMLightDesignData.Shared", "MVVMLightDesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.shproj", "{49DB8F43-0EDE-43BB-BFE6-80021281449F}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMLightDesignData.Shared", "MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.shproj", "{49DB8F43-0EDE-43BB-BFE6-80021281449F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDesignData.Windows", "MVVMLightDesignData\MVVMLightDesignData.Windows\MVVMLightDesignData.Windows.csproj", "{D6152041-AA43-4809-A0CF-526A5E53B6D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDesignData.Windows", "MVVMLight-DesignData\MVVMLightDesignData.Windows\MVVMLightDesignData.Windows.csproj", "{D6152041-AA43-4809-A0CF-526A5E53B6D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDesignData.WindowsPhone", "MVVMLightDesignData\MVVMLightDesignData.WindowsPhone\MVVMLightDesignData.WindowsPhone.csproj", "{5BE1A97A-488A-4FBE-950E-4AC7D96DAE3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLightDesignData.WindowsPhone", "MVVMLight-DesignData\MVVMLightDesignData.WindowsPhone\MVVMLightDesignData.WindowsPhone.csproj", "{5BE1A97A-488A-4FBE-950E-4AC7D96DAE3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caliburn-BasicDemo", "Caliburn-BasicDemo", "{5035B0F5-CC27-4608-A13D-6ACDA0A6444D}"
 EndProject
@@ -30,14 +30,14 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Caliburn-BasicDemo\Caliburn-BasicDemo.Shared\Caliburn-BasicDemo.Shared.projitems*{5c7e0e66-24c0-405f-817b-d92919f2e42f}*SharedItemsImports = 4
-		MVVMLightDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{e4797013-4892-4760-bf85-0131d9b92440}*SharedItemsImports = 4
-		MVVMLightDesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{49db8f43-0ede-43bb-bfe6-80021281449f}*SharedItemsImports = 13
+		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{e4797013-4892-4760-bf85-0131d9b92440}*SharedItemsImports = 4
+		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{49db8f43-0ede-43bb-bfe6-80021281449f}*SharedItemsImports = 13
 		Caliburn-BasicDemo\Caliburn-BasicDemo.Shared\Caliburn-BasicDemo.Shared.projitems*{faa64625-5fa0-4a55-9fba-758c84393447}*SharedItemsImports = 13
 		Caliburn-BasicDemo\Caliburn-BasicDemo.Shared\Caliburn-BasicDemo.Shared.projitems*{78fd266f-a9b9-4aed-a74d-08f14bedcd48}*SharedItemsImports = 4
-		MVVMLightDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{ef0728e4-8840-47f9-9cef-6c28642ff82c}*SharedItemsImports = 13
-		MVVMLightDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{6c61dc1f-1ba6-46a4-940f-6d92edd19821}*SharedItemsImports = 4
-		MVVMLightDesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{d6152041-aa43-4809-a0cf-526a5e53b6d9}*SharedItemsImports = 4
-		MVVMLightDesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{5be1a97a-488a-4fbe-950e-4ac7d96dae3d}*SharedItemsImports = 4
+		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{ef0728e4-8840-47f9-9cef-6c28642ff82c}*SharedItemsImports = 13
+		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{6c61dc1f-1ba6-46a4-940f-6d92edd19821}*SharedItemsImports = 4
+		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{d6152041-aa43-4809-a0cf-526a5e53b6d9}*SharedItemsImports = 4
+		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{5be1a97a-488a-4fbe-950e-4ac7d96dae3d}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
