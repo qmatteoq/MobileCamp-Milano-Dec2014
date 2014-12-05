@@ -35,8 +35,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn-AdvancedDemo.Windo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn-AdvancedDemo.WindowsPhone", "Caliburn-AdvancedDemo\Caliburn-AdvancedDemo.WindowsPhone\Caliburn-AdvancedDemo.WindowsPhone.csproj", "{640DE7C0-CC7F-4D81-B8DD-408470926560}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism-BasicDemo", "Prism-BasicDemo", "{2D9DFBBC-E79B-4140-9E2F-C70711378E14}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PrismDemo.Shared", "Prism-BasicDemo\PrismDemo.Shared\PrismDemo.Shared.shproj", "{EC18609C-AA4A-4B5F-AC94-3C2C0655A72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo.Windows", "Prism-BasicDemo\PrismDemo.Windows\PrismDemo.Windows.csproj", "{6C662663-219A-4FD5-AE86-D67E44C1A233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo.WindowsPhone", "Prism-BasicDemo\PrismDemo.WindowsPhone\PrismDemo.WindowsPhone.csproj", "{56227EDB-F236-47F4-B5E0-BD4166D7C35D}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Prism-BasicDemo\PrismDemo.Shared\PrismDemo.Shared.projitems*{6c662663-219a-4fd5-ae86-d67e44c1a233}*SharedItemsImports = 4
 		Caliburn-BasicDemo\Caliburn-BasicDemo.Shared\Caliburn-BasicDemo.Shared.projitems*{5c7e0e66-24c0-405f-817b-d92919f2e42f}*SharedItemsImports = 4
 		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{e4797013-4892-4760-bf85-0131d9b92440}*SharedItemsImports = 4
 		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{49db8f43-0ede-43bb-bfe6-80021281449f}*SharedItemsImports = 13
@@ -45,10 +54,12 @@ Global
 		Caliburn-AdvancedDemo\Caliburn-AdvancedDemo.Shared\Caliburn-AdvancedDemo.Shared.projitems*{640de7c0-cc7f-4d81-b8dd-408470926560}*SharedItemsImports = 4
 		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{ef0728e4-8840-47f9-9cef-6c28642ff82c}*SharedItemsImports = 13
 		Caliburn-AdvancedDemo\Caliburn-AdvancedDemo.Shared\Caliburn-AdvancedDemo.Shared.projitems*{613582e9-a8bf-498f-a7ec-da6b076216f1}*SharedItemsImports = 13
+		Prism-BasicDemo\PrismDemo.Shared\PrismDemo.Shared.projitems*{56227edb-f236-47f4-b5e0-bd4166d7c35d}*SharedItemsImports = 4
 		MVVMLight-BasicDemo\MVVMLightDemo.Shared\MVVMLightDemo.Shared.projitems*{6c61dc1f-1ba6-46a4-940f-6d92edd19821}*SharedItemsImports = 4
 		Caliburn-AdvancedDemo\Caliburn-AdvancedDemo.Shared\Caliburn-AdvancedDemo.Shared.projitems*{a8f87591-f91c-4282-9e44-79a3b955d102}*SharedItemsImports = 4
 		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{d6152041-aa43-4809-a0cf-526a5e53b6d9}*SharedItemsImports = 4
 		MVVMLight-DesignData\MVVMLightDesignData.Shared\MVVMLightDesignData.Shared.projitems*{5be1a97a-488a-4fbe-950e-4ac7d96dae3d}*SharedItemsImports = 4
+		Prism-BasicDemo\PrismDemo.Shared\PrismDemo.Shared.projitems*{ec18609c-aa4a-4b5f-ac94-3c2c0655a72f}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +264,54 @@ Global
 		{640DE7C0-CC7F-4D81-B8DD-408470926560}.Release|x86.ActiveCfg = Release|x86
 		{640DE7C0-CC7F-4D81-B8DD-408470926560}.Release|x86.Build.0 = Release|x86
 		{640DE7C0-CC7F-4D81-B8DD-408470926560}.Release|x86.Deploy.0 = Release|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|ARM.Build.0 = Debug|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|ARM.Deploy.0 = Debug|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x64.ActiveCfg = Debug|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x64.Build.0 = Debug|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x64.Deploy.0 = Debug|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x86.ActiveCfg = Debug|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x86.Build.0 = Debug|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Debug|x86.Deploy.0 = Debug|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|ARM.ActiveCfg = Release|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|ARM.Build.0 = Release|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|ARM.Deploy.0 = Release|ARM
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x64.ActiveCfg = Release|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x64.Build.0 = Release|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x64.Deploy.0 = Release|x64
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x86.ActiveCfg = Release|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x86.Build.0 = Release|x86
+		{6C662663-219A-4FD5-AE86-D67E44C1A233}.Release|x86.Deploy.0 = Release|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|ARM.Build.0 = Debug|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x64.Build.0 = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x86.ActiveCfg = Debug|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x86.Build.0 = Debug|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Debug|x86.Deploy.0 = Debug|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|ARM.ActiveCfg = Release|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|ARM.Build.0 = Release|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|ARM.Deploy.0 = Release|ARM
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x64.ActiveCfg = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x64.Build.0 = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x64.Deploy.0 = Release|Any CPU
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x86.ActiveCfg = Release|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x86.Build.0 = Release|x86
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,5 +329,8 @@ Global
 		{613582E9-A8BF-498F-A7EC-DA6B076216F1} = {BD0A8485-5CDD-43A0-816B-23ADAF95A2FE}
 		{A8F87591-F91C-4282-9E44-79A3B955D102} = {BD0A8485-5CDD-43A0-816B-23ADAF95A2FE}
 		{640DE7C0-CC7F-4D81-B8DD-408470926560} = {BD0A8485-5CDD-43A0-816B-23ADAF95A2FE}
+		{EC18609C-AA4A-4B5F-AC94-3C2C0655A72F} = {2D9DFBBC-E79B-4140-9E2F-C70711378E14}
+		{6C662663-219A-4FD5-AE86-D67E44C1A233} = {2D9DFBBC-E79B-4140-9E2F-C70711378E14}
+		{56227EDB-F236-47F4-B5E0-BD4166D7C35D} = {2D9DFBBC-E79B-4140-9E2F-C70711378E14}
 	EndGlobalSection
 EndGlobal
